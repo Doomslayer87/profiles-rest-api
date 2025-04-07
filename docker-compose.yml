@@ -1,9 +1,0 @@
-services:
-  dev:
-    build: .
-    ports:
-      - "8000:8000"
-    volumes:
-      - .:/app
-    tty: true
-    stdin_open: true

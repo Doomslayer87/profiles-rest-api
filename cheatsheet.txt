@@ -1,0 +1,7 @@
+1.  Activate env linux
+
+source ~/env/bin/activate
+
+2.  enable django server
+
+python manage.py runserver 0.0.0.0:PORT
