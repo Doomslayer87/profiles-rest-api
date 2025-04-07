@@ -5,3 +5,7 @@ source ~/env/bin/activate
 2.  enable django server
 
 python manage.py runserver 0.0.0.0:PORT
+
+3.  Create DB migration for project
+
+(env) project_folder: python manage.py makemigrations profiles_api
