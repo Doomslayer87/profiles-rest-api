@@ -9,3 +9,7 @@ python manage.py runserver 0.0.0.0:PORT
 3.  Create DB migration for project
 
 (env) project_folder: python manage.py makemigrations profiles_api
+
+4.  Create super user
+
+(env) project_folder: python manage.py createsuperuser
